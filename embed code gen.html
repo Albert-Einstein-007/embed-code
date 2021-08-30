@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				<title>Embed Link Generator</title>
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<style>
+				
+				*{
+								margin: 1px;
+								padding: 1px;
+				}
+				body {
+								font-family: 'Nunito', sans-serif;
+				}
+				textarea{
+								
+								height: 70px;
+								display: none;
+								width: 100%;
+								outline: none;
+								font-size: 13px;
+								margin:8px;
+								border: none;
+								padding-bottom: 20px;
+								padding-top: 10px;
+				}
+				
+				#div{
+								
+								
+				}
+				.wh{
+								
+								width:80px;
+								
+				}
+			
+				
+				#link{
+								width: 170px;
+				}
+				
+				#wed,#hei{
+								width: 60px;
+				}
+				
+				input:hover{
+								font-size: 20px;
+								transition: .5s;
+							
+				}
+				
+				input:focus{
+								outline: none;
+								border: none;
+								border-bottom: 2px solid #ff0088;
+								box-shadow: 2px 3px #000000;
+				}
+				
+				input{
+								border: 1px solid #b900ff;
+								border-radius:2px 3px 4px 5px;
+								padding: 3px;
+								margin: 2px;
+								
+				}
+				
+				#h1{
+								font-size: 20px;
+								text-align: center;
+								color: red;
+								text-shadow: 1px 1.5px black,
+								1.5px 1px black,
+								-1.5px 1px black,
+								1px -1.5px black;
+				}
+				
+			#generator{
+								margin: 10px;
+								
+								width: 100px;
+								font-size: 20px;
+								background-color: #00ffea;
+								border: 1px solid #00ff81;
+								color: #ff00dc;
+								border-radius:2px 3px 4px 5px;
+				}
+		   #nxt{
+				display:none;
+				font-size: 20px;
+				border: 1px solid #006cff;
+				border-radius: 4px 6px 6px 4px;
+				padding: 1px;
+				background: #6500ff;
+				color: white;
+					margin: 10px;
+								
+								width: 200px;
+								font-size: 20px;
+				}
+				#btns{
+								display: flex;
+								flex-direction: row;
+				}
+				#copy{
+								display:none;
+				font-size: 20px;
+				border: 1px solid #006cff;
+				border-radius: 4px 6px 6px 4px;
+				padding: 1px;
+				background: #6500ff;
+				color: white;
+					margin: 10px;
+								
+								width: 200px;
+								font-size: 20px;
+				}
+				
+				span{
+				text-decoration: underline;
+				color: #ff000a;
+				
+				}
+				
+				p{
+				font-size: 20px;
+				padding-top: 40%;
+				}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<body>
+				<h1 id="h1"></h1>
+				 <input type="text" id="link" required placeholder="link here">
+			 <input type="number" value="350" class="wh" id="wed">
+			<input type="number" value="200" class="wh" id="hei"><br>
+				<div id="btns">
+								<button id="generator" onClick="generator()">Generate</button>
+				<button onclick="copy()"id="copy">copy</button>
+				<button id="nxt" onclick="next()">Next Video</button>
+				</div>
+				<div id="div">
+								<textarea id="linkco" contenteditable></textarea>
+				</div>
+				
+				<div id="iframe"></div>
+				<p>
+								This Is A Tool For Getting Embed Code Of A YouTube Video By Pasting YouTube Video Code In The Above Box <br> There Are An Option To Change The Height and Width Of The Video <br> By Default There Are Already Two values. <span>200</span> Is The Height Of The Video And <span>350</span> Is The Width Of The Video You Can Also Adjust It <br> Please Support Me By Sharing This Site To Your Friends Who Needed This 
+				</p>
+</body>
+
+
+ <script src="embed code gen.js">
+ 			
+
+ </script>
+
+</html>
